@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- code below of scrolling script is from w3schrool -->
+    <!-- https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    <!-- code above of scrolling script is from w3schrool -->
+    <!-- https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleM.css">
+    <meta charset="utf-8">
+    <title>menu page</title>
+  </head>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#introPart">introduction</a></li>
+        <li><a href="#histo2">history</a></li>
+        <li><a href="#example3">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <!-- <div class="fullScreen1">
+      <img src="menuPage.jpg" alt="">
+    </div> -->
+
+    <div class="allContent" id="all">
+      <div class="introductionText" id="introPart">
+        <h1>Introduction</h1>
+        <p>Nowadays, all the important areas of people's daily lives are digitised. We work, play and play online. E-sports have become the number one sport and beauty filters work better than make-up.</p>
+          <p>With the advent of television, our attention to the real world dropped to 85%.</p>
+          <p>With the advent of computers, our attention to the real world fell to 70%.</p>
+          <p>With the advent of mobile phones, our attention to the real world fell to 50%.</p>
+        <p>If this trend continues, one day our attention to digital life will rise from 50% to over 90%, and that moment will be the singularity of the meta-universe, because we will consider virtual life more important than real life.</p>
+      </div>
+      <br>
+      <div class="gifs">
+        <img class="parallax-pic" src="https://g.redditmedia.com/JzkswAdkC_uNUj7AySII3I8gjE6U3NlRRTUMPKqSK38.gif?fm=mp4&mp4-fragmented=false&s=17edc85cac9d803ac700d058ac6ddbb6"
+          alt="VRglassesGIF"
+          style="will-change: transform; transform: translate3d(0px, 5px, 0px);
+          transition: transform 0.5s cubic-bezier(0, 0, 0, 1) 0s;">
+      </div>
+      <br>
+
+
+      <div class="historyText" id="histo2">
+        <h1>History</h1>
+
+        <p>The metaverse is the "metaverse". verse is the universe, meta is a bit more complicated and comes from the ancient Greece.
+
+          At that time, the Athenians called the study of things that had a physical body "physics", which later developed into physics.
+          And the study of things without form was called metaphysics, which translates as metaphysics. This is the origin of meta.
+          The real universe we live in is the universe, and the corresponding virtual universe is the metaverse.
+          Many articles say that the metaverse originated in the 1992 science fiction novel Snow Crash,
+          in which author Neal Stephenson depicted a virtual parallel digital world (metaverse) in which people lived, worked, and played with Avatars. </P>
+          <br>
+        <p>But anyone who knows anything about the science fiction genre knows that this framework is called Cyberpunk.
+          The genre was pioneered by Vernor Vinci's "Real Names" in 1981 and William Gibson's "Neuromancer" in 1984.
+          Snow Crash was merely the creation of the word metaverse to name cyberspace.</p>
+
+        <p>For the future of human beings, science fiction is roughly divided into two schools of thought:
+          the "spaceship school" and the "metaverse school". The so-called "spaceship school", or the "meta-universe school",
+          believes that the future of human beings lies in the vast and boundless universe, and that our journey is to the stars and the sea.
+          Unfortunately, in 2021, mankind has still not been able to fly beyond the gravitational range of the Earth.</p>
+          <br>
+        <p>That's why some people start to believe that the metaverse is the future of human beings,
+          and even say nonsense like "the universe should only be a physical part of the metaverse,
+          and even the parallel universe is only a part of the metaverse".</p>
+
+        <p>At this point in time, we do not have a very clear and objective definition of the concept of "metaverse", and everyone is talking about their own understanding. </p>
+
+        <p>Unlike the setting in cyberpunk in science fiction, the definition of metaverse is now not just a virtual space.
+          The development of blockchain technology and NFT (non-homogenized tokens) has allowed the economic system of the metaverse to be connected to the real world.</p>
+
+        <p>In other words, the game master in science fiction may be penniless in real life, or even scrimp and save to buy game equipment, like Top Gun.
+          But now the meta-universe experts can support their families and even become rich in real life just by the NFT they earn in the game.</p>
+          <br>
+        </div>
+      <br>
+      <div class="gifs">
+        <img class="parallax-pic" src="https://i.imgur.com/Bozecu9.gif"
+          alt="2"
+          style="will-change: transform; transform: translate3d(0px, 5px, 0px);
+          transition: transform 0.5s cubic-bezier(0, 0, 0, 1) 0s;">
+      </div>
+      <br>
+
+      <div class="Examples" id="example3">
+        <h1>Events</h1>
+        <h2>Metaverse has already existed since 80s, so far before we aware it</h2>
+        <p>For instance,</p>
+
+        <div class="sourcesVids">
+          <!-- insert youtube video code is from w3schools-->
+          <!-- https://www.w3schools.com/html/html_youtube.asp -->
+            <div class="row">
+              <p>WorldsAway aka "Habitat" [late 80's - mid 90s</p>
+              <iframe width="650" height="400" src="https://www.youtube.com/embed/YPBsgFYpz00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="650" height="400" src="https://www.youtube.com/embed/_BUK1nF9LTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <br>
+
+            <div class="eventsBlock">
+
+              <p>"Active Worlds" [mid 90s]</p>
+              <p>Official Site: https://www.activeworlds.com/</p>
+              <iframe width="650" height="400" src="https://www.youtube.com/embed/PRgATG6PUA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="650" height="400" src="https://www.youtube.com/embed/md1fFTymGYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <br>
+
+
+              <p>"There" [early 2000s]</p>
+              <p>Blog Site: https://there.blog/2022/01/10/annual-club-fair-in-there/</p>
+              <iframe width="650" height="400" src="https://www.youtube.com/embed/pz6igsxKmDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="650" height="400" src="https://www.youtube.com/embed/I5mAcV-odnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <br>
+
+
+              <p>"Second Life" [mid-late 2000s, still quite active]</p>
+              <p>Official Site: https://secondlife.com/</p>
+              <br>
+
+              <h2>Recently, the genre of metaverse platform increases in an exponental rate</h2>
+              <p>For exmample</p>
+              <p>Roblox</p>
+              <p>Official Site: https://www.roblox.com/</p>
+              <iframe width="800" height="400" src="https://www.youtube.com/embed/_EPelwsaF9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <p>Unreal Engine by Epic Games</p>
+              <p>Official Site: https://www.epicgames.com/site/en-US/home</p>
+              <iframe width="650" height="400" src="https://www.youtube.com/embed/36IViSM6cWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="650" height="400" src="https://www.youtube.com/embed/7ZLibi6s_ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+        </div>
+      </div>
+      <br>
+
+      <br>
+    </div>
+
+
+
+  </body>
+</html>
